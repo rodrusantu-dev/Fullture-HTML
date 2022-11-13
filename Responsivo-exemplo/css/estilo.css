@@ -1,0 +1,50 @@
+/*ESTILO DO CONTAINER COMO UM TODO*/
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+/*AQUI ESTILIZA O TAMANHO DE CADA BOX DE COR*/
+.box {
+    height: 200px;
+    width: 250px;
+    margin: 70px auto 0;
+}
+
+/*ESTILO DE COR PARA CADA BOX*/
+.box1 {
+    background-color: green;
+    font-weight: 700;
+    font-size: 26px;
+}
+.box2 {
+    background-color: yellow;
+    font-weight: 700;
+    font-size: 26px;
+}
+.box3 {
+    background-color: blue;
+    font-weight: 700;
+    font-size: 26px;
+}
+.box4 {
+    background-color: black;
+    color: white;
+    font-weight: 700;
+    font-size: 26px;
+}
+.box5 {
+    background-color: red;
+    font-weight: 700;
+    font-size: 26px;
+}
+
+/*ESTILO DE RESPONSIVIDADE*/
+@media (max-width: 1480px) {
+    .container {
+        flex-wrap: wrap;
+    }
+    .box1, .box2, .box3, .box4 {
+        display: block;
+}

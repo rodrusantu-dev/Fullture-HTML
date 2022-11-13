@@ -1,0 +1,17 @@
+.footer {
+    background-color: brown;
+    padding: 10px;
+    margin: 10px;
+    
+}
+
+.footer-bar {
+    background-color: brown;
+    color: aliceblue;
+
+}
+.footer-creditos {
+    color: aliceblue;
+    text-align: center;
+    font-weight: 700;
+}
